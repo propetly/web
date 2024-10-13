@@ -12,7 +12,7 @@ export default function PrivateLayout({
   children: ReactNode;
 }>) {
   return (
-    <div className="app-container relative flex h-screen w-full flex-col overflow-hidden">
+    <div className="app-container relative flex h-dvh w-full flex-col overflow-hidden lg:h-screen">
       <div className="relative size-full overflow-hidden">
         <div className="relative flex size-full overflow-hidden">
           <div className="fixed inset-y-0 z-20 -ml-[250px] flex h-full w-[250px] flex-shrink-0 flex-grow-0 flex-col border-r border-[#E5E5E5] bg-white duration-300 lg:relative lg:ml-0">
@@ -42,7 +42,11 @@ export default function PrivateLayout({
                 <div className=""></div>
                 <div className="w-full">
                   <div className="relative z-[18] flex w-full flex-shrink-0 flex-row items-center justify-between gap-x-2 gap-y-4 px-0">
-                    Mobile menu
+                    <div className="">Объекты</div>
+                    <div className="">Уведомления</div>
+                    <div className="">Меню</div>
+                    <div className="">Добавить</div>
+                    <div className="">Профиль</div>
                   </div>
                 </div>
               </div>
