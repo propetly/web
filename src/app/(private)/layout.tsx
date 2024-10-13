@@ -1,9 +1,9 @@
-import type { ReactNode } from "react";
+import type { ReactNode } from 'react';
 
 export default function PrivateLayout({
-                                          children,
-                                      }: Readonly<{
-    children: ReactNode;
+  children,
+}: Readonly<{
+  children: ReactNode;
 }>) {
-    return <></>
+  return <></>;
 }
