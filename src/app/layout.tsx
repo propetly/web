@@ -3,7 +3,10 @@ import { Inter } from 'next/font/google';
 import type { ReactNode } from 'react';
 import './globals.css';
 
-const interSans = Inter();
+const interSans = Inter({
+  subsets: ['cyrillic'],
+  preload: true,
+});
 
 export const metadata: Metadata = {
   title: 'Create Next App',
